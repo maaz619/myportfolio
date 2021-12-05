@@ -2,10 +2,11 @@
 <html lang="en">
 
   <head>
+    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adarsh Balak</title>
+    <title>Hiya Lad</title>
   </head>
 
   <body>
@@ -13,7 +14,7 @@
     <p>Let's make component library from scratch and in systematic way which will help me to get into neog.camp</p>
 
     <hr>
-    
+
     <h2>@typography</h2>
 
     <h1>This is < h1> tag which bigges header tag</h>
@@ -30,33 +31,39 @@
     <h2>@containers</h2>
 
     <h3>@fluid container</h3>
-    <div>
-      This is a fluid container which basically takes full width
+    <div class="container">
+      This is a fluid container which basically takes full width of the window
     </div>
     <h3>@center container</h3>
-    <div>
-      This is a center container which basically stays at center
+    <div class="container centered-container">
+      This is a center container which basically stays at center and it'll be take specified width
     </div>
     <hr>
 
     <h2>@links</h2>
-    <a href="/">primary link</a>
-    <a href="/">secondary link</a>
+    <a class="link primary-link" href="/">Primary link</a>
+    <a class="link secondary-link" href="/">Secondary link</a>
     <hr>
 
     <h2>@list</h2>
 
     <h3> unordered list</h3>
-    <ul>
+    <ul class="list-non-bullet">
       <li>onion</li>
       <li>potato</li>
       <li>tomato</li>
       <li>garlic</li>
     </ul>
+
     <h3>inline list</h3>
-    <h5>coming soon</h5>
+    <ul class="list-non-bullet">
+      <li class="list-item-inline">onion</li>
+      <li class="list-item-inline">potato</li>
+      <li class="list-item-inline">tomato</li>
+      <li class="list-item-inline">garlic</li>
+    </ul>
     <h3> reverse ordered list</h3>
-    <ol>
+    <ol reversed>
       <li>onion</li>
       <li>potato</li>
       <li>tomato</li>
@@ -66,33 +73,22 @@
 
     <h2>@nav</h2>
 
-    <div>logo</div>
-    <nav>
-      <ul>
-        <li>
-          <a href="">Home</a>
+    <nav class="navigation">
+      <div class=" navigation-brand">brandLogo</div>
+      <ul class="nav list-non-bullet">
+        <li class="list-item-inline">
+          <a class="link nav-link link-active" href="">Home</a>
         </li>
-        <li>
-          <a href="">profile</a>
-        </li>
-        <li>
-          <a href="">Portfolio</a>
+        <li class="list-item-inline">
+          <a class="link nav-link" href="">profile</a>
+        </li class="list-item-inline">
+        <li class="list-item-inline">
+          <a class="link nav-link" href="">Portfolio</a>
         </li>
       </ul>
     </nav>
-    <ul>
-      <li>
-        <a href="">Home</a>
-      </li>
-      <li>
-        <a href="">profile</a>
-      </li>
-      <li>
-        <a href="">Portfolio</a>
-      </li>
-    </ul>
     <hr>
-
+nav-
     <h2>@header</h2>
 
     <img src="hero.svg" alt="heading logo">
