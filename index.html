@@ -2,77 +2,14 @@
 <html lang="en">
 
   <head>
-    <link rel="stylesheet" href="styles.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hiya Lad</title>
+    <meta charset="UTF-8" />
+    <link href="styles.css" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | Portfolio</title>
   </head>
 
   <body>
-    <h1>Maaz's component library</h1>
-    <p>Let's make component library from scratch and in systematic way which will help me to get into neog.camp</p>
-
-    <hr>
-
-    <h2>@typography</h2>
-
-    <h1>This is < h1> tag which bigges header tag</h>
-    </h1>
-    <h2>This is < h2> tag which second biggest header tag</h6>
-    </h2>
-    </h1>
-    <p>This is a paragraph which is normal text same as its on textbooks and you can even see that its text size is
-      simlar to the textbook</p>
-
-    <small>Thsi is a text smaller than paragraph by default.</small>
-    <hr>
-
-    <h2>@containers</h2>
-
-    <h3>@fluid container</h3>
-    <div class="container">
-      This is a fluid container which basically takes full width of the window
-    </div>
-    <h3>@center container</h3>
-    <div class="container centered-container">
-      This is a center container which basically stays at center and it'll be take specified width
-    </div>
-    <hr>
-
-    <h2>@links</h2>
-    <a class="link primary-link" href="/">Primary link</a>
-    <a class="link secondary-link" href="/">Secondary link</a>
-    <hr>
-
-    <h2>@list</h2>
-
-    <h3> unordered list</h3>
-    <ul class="list-non-bullet">
-      <li>onion</li>
-      <li>potato</li>
-      <li>tomato</li>
-      <li>garlic</li>
-    </ul>
-
-    <h3>inline list</h3>
-    <ul class="list-non-bullet">
-      <li class="list-item-inline">onion</li>
-      <li class="list-item-inline">potato</li>
-      <li class="list-item-inline">tomato</li>
-      <li class="list-item-inline">garlic</li>
-    </ul>
-    <h3> reverse ordered list</h3>
-    <ol reversed>
-      <li>onion</li>
-      <li>potato</li>
-      <li>tomato</li>
-      <li>garlic</li>
-    </ol>
-    <hr>
-
-    <h2>@nav</h2>
-
     <nav class="navigation">
       <div class=" navigation-brand">brandLogo</div>
       <ul class="nav list-non-bullet">
@@ -80,47 +17,59 @@
           <a class="link nav-link link-active" href="">Home</a>
         </li>
         <li class="list-item-inline">
-          <a class="link nav-link" href="">profile</a>
+          <a class="link nav-link" href="project.html">Projects</a>
         </li class="list-item-inline">
         <li class="list-item-inline">
-          <a class="link nav-link" href="">Portfolio</a>
+          <a class="link nav-link" href="blog.html">Blogs</a>
         </li>
       </ul>
     </nav>
-    <hr>
-nav-
-    <h2>@header</h2>
-
-    <img src="hero.svg" alt="heading logo">
-    <h1>its a heading </h1>
-    <hr>
-
-    <h2>section</h2>
-
-    <section>
-      <h3>white section</h3>
-      <p>This is going to be white section</p>
-    </section>
-
-    <section>
-      <h3>offwhite section</h3>
-      <p>This is going to be offwhite section</p>
-    </section>
-    <hr>
-
-    <h2>@footer</h2>
-
-    <footer>
-      <div>
-        Some small headinginside footer
-      </div>
-      <ul>
-        <li>social</li>
-        <li>social2</li>
-        <li>social3</li>
-      </ul>
-    </footer>
-    <!-- <div style="height: 50vh;"></div> -->
+    <header class="hero">
+      <img class="hero-img" src="hero.svg" alt="heading logo">
+      <h1 class="hero-heading">This is Maaz the <span class="heading-custom">Web Developer</span> or <span
+          class="heading-custom">am i?</span></h1>
+    </header>
   </body>
+  <section class="section ow">
+    <div class="section centered-container">
+      <h1>Technology</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+
+      </p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="section centered-container">
+      <h1>Projects</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+      </p>
+      <a class="link primary-link" href="/">My Projects</a>
+    </div>
+  </section>
+  <section class="section ow">
+    <div class="section centered-container">
+      <h1>Blogs</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+      </p>
+      <a class="link secondary-link" href="/">My Blogs</a>
+    </div>
+  </section>
+  <footer class="footer">
+    <div>
+      <strong>Connect to me❤️❤️</strong>
+    </div>
+    <ul class="list-non-bullet">
+      <a class="link" href="https://github.com/maaz619" target="_blank">
+        <li class="list-item-inline"><img src="git.png" alt=""></li>
+      </a>
+      <a class="link" href="https://twitter.com/imox919" target="_blank">
+        <li class="list-item-inline"><img src="twitter.png" alt=""></li>
+      </a>
+      <a class="link" href="">
+        <li class="list-item-inline"><img src="link.png" alt="linkedIN_logo"></li>
+      </a>
+    </ul>
+  </footer>
+
 
 </html>
