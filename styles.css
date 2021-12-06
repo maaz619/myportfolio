@@ -4,6 +4,7 @@
     --primary-color: #6D28D9;
     --custom-color: #374151;
     --off-white: #E5E7EB;
+    --custom-green:#34D399;
 
 }
 
@@ -49,6 +50,7 @@ hr {
 }
 .centered-container{
     padding: 3rem;
+    text-align: center;
 }
 .list-non-bullet {
     list-style: none;
