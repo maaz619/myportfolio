@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #6D28D9;
+    --custom-color: #374151;
+    --off-white: #E5E7EB;
+    --custom-green: #34D399;
+
+}
+
+:-webkit-any(section) h1 {
+    font-size: 2em;
+}
+
+body {
+    font-family: 'DM Sans',
+        sans-serif;
+    margin: 0;
+}
+
+.blog-img {
+    max-width: 700px;
+    max-height: 300px;
+    display: block;
+    margin: auto;
+}
+.section{
+    max-width: 600px;
+    margin: auto;
+    padding: 2rem;
+    text-align: center;
+}
+.blog-para{
+    text-align: justify;
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 550;
+}

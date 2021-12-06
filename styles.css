@@ -50,7 +50,6 @@ hr {
 }
 .centered-container{
     padding: 3rem;
-    text-align: center;
 }
 .list-non-bullet {
     list-style: none;
@@ -116,6 +115,7 @@ hr {
 }
 
 .ow {
+    border-radius: 3rem;
     background-color:var(--off-white);
 }
 .footer{
