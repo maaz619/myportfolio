@@ -115,7 +115,6 @@ hr {
 }
 
 .ow {
-    border-radius: 3rem;
     background-color:var(--off-white);
 }
 .footer{
@@ -135,4 +134,7 @@ hr {
 .footer .list-item-inline{
    margin: 0 1.5rem;
    padding: 0;
+}
+.centered-with-date{
+    text-align: center;
 }
